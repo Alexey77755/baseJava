@@ -1,11 +1,13 @@
 package com;
 import com.MyProject.webapp.storage.ArrayStorage;
 import com.MyProject.webapp.model.Resume;
+import com.MyProject.webapp.storage.Storage;
+
 /**
  * Test for your ArrayStorage implementation
  */
 public class MainTestArrayStorage {
-    static final ArrayStorage ARRAY_STORAGE = new ArrayStorage();
+    static final Storage ARRAY_STORAGE = new ArrayStorage();
 
     public static void main(String[] args) {
         final Resume r1 = new Resume();
